@@ -2,3 +2,6 @@ git status
 git add *
 git commit -m "begin"
 git push
+npm init
+npm install moment --save
+npm install webpack --save-dev
