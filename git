@@ -1,3 +1,4 @@
+https://habrahabr.ru/company/mailru/blog/340922/
 git status
 git add *
 git commit -m "begin"
@@ -5,3 +6,4 @@ git push
 npm init
 npm install moment --save
 npm install webpack --save-dev
+./node_modules/.bin/webpack index.js bundle.js
