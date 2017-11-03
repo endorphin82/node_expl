@@ -1,0 +1,11 @@
+* div{
+    border: solid 1px red;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    width:960px;
+}
