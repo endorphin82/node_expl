@@ -8,4 +8,4 @@ npm init
 npm install moment --save
 npm install webpack --save-dev
 npm install babel-core babel-preset-env babel-loader --save-dev
-./node_modules/.bin/webpack index.js bundle.js
+node_modules\.bin\webpack index.js bundle.js

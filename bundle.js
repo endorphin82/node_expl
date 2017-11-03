@@ -16002,7 +16002,7 @@ return zhTw;
 // index.js
 var moment = __webpack_require__(0);
 console.log("Hello from JavaScript!");
-console.log(moment().startOf('day').fromNow());
+console.log(mogment().startOf('day').fromNow());
 
 /***/ }),
 /* 120 */
