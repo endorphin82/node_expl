@@ -15999,10 +15999,16 @@ return zhTw;
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 // index.js
 var moment = __webpack_require__(0);
 console.log("Hello from JavaScript!");
-console.log(mogment().startOf('day').fromNow());
+console.log(moment().startOf('day').fromNow());
+var name = "Andrey",
+    time = "today";
+console.log('Hello ' + name + ', how are you ' + time + '?');
 
 /***/ }),
 /* 120 */
