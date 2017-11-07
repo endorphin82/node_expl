@@ -1,11 +1,46 @@
-* div{
+div{
     border: solid 1px red;
+    box-sizing: border-box;
 }
 body {
     padding: 0px;
     margin: 0px;
 
 }
+.clearfix:after{
+     content: '';
+     display: table;
+     width: 100%;
+     clear: both;
+ }
+
 .container{
-    width:960px;
+    width:900px;
+    margin: 0 auto;
+    border: solid 1px gray;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    border: solid 1px red;
+}
+.menu li{
+    margin: 0px 20px;
+    display: block;
+    border: solid 1px blue;
+}
+.menu a{
+    color: #000000;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: gold;
+}
+h1{
+    text-align: center;
+    border: solid 1px blue;
 }
